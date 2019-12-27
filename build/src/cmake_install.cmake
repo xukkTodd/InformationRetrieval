@@ -1,4 +1,4 @@
-# Install script for directory: /home/actev/IS/IS_execise/src
+# Install script for directory: /home/actev/IR/IR_exercises/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

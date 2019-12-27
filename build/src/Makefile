@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/actev/IS/IS_execise
+CMAKE_SOURCE_DIR = /home/actev/IR/IR_exercises
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/actev/IS/IS_execise/build
+CMAKE_BINARY_DIR = /home/actev/IR/IR_exercises/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/actev/IS/IS_execise/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/actev/IS/IS_execise/build/CMakeFiles /home/actev/IS/IS_execise/build/src/CMakeFiles/progress.marks
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/actev/IS/IS_execise/build/CMakeFiles 0
+	cd /home/actev/IR/IR_exercises/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/actev/IR/IR_exercises/build/CMakeFiles /home/actev/IR/IR_exercises/build/src/CMakeFiles/progress.marks
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/actev/IR/IR_exercises/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/actev/IS/IS_execise/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/actev/IR/IR_exercises/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/IS_execise.dir/rule:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/IS_execise.dir/rule
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/IS_execise.dir/rule
 .PHONY : src/CMakeFiles/IS_execise.dir/rule
 
 # Convenience name for target.
@@ -122,7 +122,7 @@ IS_execise: src/CMakeFiles/IS_execise.dir/rule
 
 # fast build rule for target.
 IS_execise/fast:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/build
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/build
 .PHONY : IS_execise/fast
 
 chapter1.o: chapter1.cpp.o
@@ -131,7 +131,7 @@ chapter1.o: chapter1.cpp.o
 
 # target to build an object file
 chapter1.cpp.o:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.o
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.o
 .PHONY : chapter1.cpp.o
 
 chapter1.i: chapter1.cpp.i
@@ -140,7 +140,7 @@ chapter1.i: chapter1.cpp.i
 
 # target to preprocess a source file
 chapter1.cpp.i:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.i
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.i
 .PHONY : chapter1.cpp.i
 
 chapter1.s: chapter1.cpp.s
@@ -149,7 +149,7 @@ chapter1.s: chapter1.cpp.s
 
 # target to generate assembly for a file
 chapter1.cpp.s:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.s
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/chapter1.cpp.s
 .PHONY : chapter1.cpp.s
 
 main.o: main.cpp.o
@@ -158,7 +158,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.o
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -167,7 +167,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.i
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -176,7 +176,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/actev/IS/IS_execise/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.s
+	cd /home/actev/IR/IR_exercises/build && $(MAKE) -f src/CMakeFiles/IS_execise.dir/build.make src/CMakeFiles/IS_execise.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -205,6 +205,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/actev/IS/IS_execise/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/actev/IR/IR_exercises/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

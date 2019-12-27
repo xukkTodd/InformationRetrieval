@@ -8,9 +8,9 @@
 
 ..//include/chapter1.h
 
-/home/actev/IS/IS_execise/src/chapter1.cpp
+/home/actev/IR/IR_exercises/src/chapter1.cpp
 include/chapter1.h
-/home/actev/IS/IS_execise/src/include/chapter1.h
+/home/actev/IR/IR_exercises/src/include/chapter1.h
 map
 -
 iostream
@@ -25,10 +25,12 @@ vector
 -
 algorithm
 -
+set
+-
 
-/home/actev/IS/IS_execise/src/main.cpp
+/home/actev/IR/IR_exercises/src/main.cpp
 include/chapter1.h
-/home/actev/IS/IS_execise/src/include/chapter1.h
+/home/actev/IR/IR_exercises/src/include/chapter1.h
 map
 -
 functional

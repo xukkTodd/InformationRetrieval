@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/actev/IS/IS_execise/src/chapter1.cpp" "/home/actev/IS/IS_execise/build/src/CMakeFiles/IS_execise.dir/chapter1.cpp.o"
-  "/home/actev/IS/IS_execise/src/main.cpp" "/home/actev/IS/IS_execise/build/src/CMakeFiles/IS_execise.dir/main.cpp.o"
+  "/home/actev/IR/IR_exercises/src/chapter1.cpp" "/home/actev/IR/IR_exercises/build/src/CMakeFiles/IS_execise.dir/chapter1.cpp.o"
+  "/home/actev/IR/IR_exercises/src/main.cpp" "/home/actev/IR/IR_exercises/build/src/CMakeFiles/IS_execise.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

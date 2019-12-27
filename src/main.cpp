@@ -16,6 +16,6 @@ int main()
 {
 	std::map< std::string, std::function<void()> > funtion_map;
 	BuildFunctionMap(&funtion_map);
-	funtion_map[COMBINE(1, 1)]();
+	funtion_map[COMBINE(1, 3)]();
 	return 0;
 }

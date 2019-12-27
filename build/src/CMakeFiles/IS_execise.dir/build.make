@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/actev/IS/IS_execise
+CMAKE_SOURCE_DIR = /home/actev/IR/IR_exercises
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/actev/IS/IS_execise/build
+CMAKE_BINARY_DIR = /home/actev/IR/IR_exercises/build
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/IS_execise.dir/depend.make
@@ -59,16 +59,16 @@ include src/CMakeFiles/IS_execise.dir/flags.make
 
 src/CMakeFiles/IS_execise.dir/main.cpp.o: src/CMakeFiles/IS_execise.dir/flags.make
 src/CMakeFiles/IS_execise.dir/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/actev/IS/IS_execise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/IS_execise.dir/main.cpp.o"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IS_execise.dir/main.cpp.o -c /home/actev/IS/IS_execise/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/actev/IR/IR_exercises/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/IS_execise.dir/main.cpp.o"
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IS_execise.dir/main.cpp.o -c /home/actev/IR/IR_exercises/src/main.cpp
 
 src/CMakeFiles/IS_execise.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IS_execise.dir/main.cpp.i"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/actev/IS/IS_execise/src/main.cpp > CMakeFiles/IS_execise.dir/main.cpp.i
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/actev/IR/IR_exercises/src/main.cpp > CMakeFiles/IS_execise.dir/main.cpp.i
 
 src/CMakeFiles/IS_execise.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IS_execise.dir/main.cpp.s"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/actev/IS/IS_execise/src/main.cpp -o CMakeFiles/IS_execise.dir/main.cpp.s
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/actev/IR/IR_exercises/src/main.cpp -o CMakeFiles/IS_execise.dir/main.cpp.s
 
 src/CMakeFiles/IS_execise.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ src/CMakeFiles/IS_execise.dir/main.cpp.o.provides.build: src/CMakeFiles/IS_execi
 
 src/CMakeFiles/IS_execise.dir/chapter1.cpp.o: src/CMakeFiles/IS_execise.dir/flags.make
 src/CMakeFiles/IS_execise.dir/chapter1.cpp.o: ../src/chapter1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/actev/IS/IS_execise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/IS_execise.dir/chapter1.cpp.o"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IS_execise.dir/chapter1.cpp.o -c /home/actev/IS/IS_execise/src/chapter1.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/actev/IR/IR_exercises/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/IS_execise.dir/chapter1.cpp.o"
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/IS_execise.dir/chapter1.cpp.o -c /home/actev/IR/IR_exercises/src/chapter1.cpp
 
 src/CMakeFiles/IS_execise.dir/chapter1.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/IS_execise.dir/chapter1.cpp.i"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/actev/IS/IS_execise/src/chapter1.cpp > CMakeFiles/IS_execise.dir/chapter1.cpp.i
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/actev/IR/IR_exercises/src/chapter1.cpp > CMakeFiles/IS_execise.dir/chapter1.cpp.i
 
 src/CMakeFiles/IS_execise.dir/chapter1.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/IS_execise.dir/chapter1.cpp.s"
-	cd /home/actev/IS/IS_execise/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/actev/IS/IS_execise/src/chapter1.cpp -o CMakeFiles/IS_execise.dir/chapter1.cpp.s
+	cd /home/actev/IR/IR_exercises/build/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/actev/IR/IR_exercises/src/chapter1.cpp -o CMakeFiles/IS_execise.dir/chapter1.cpp.s
 
 src/CMakeFiles/IS_execise.dir/chapter1.cpp.o.requires:
 
@@ -117,8 +117,8 @@ IS_execise_EXTERNAL_OBJECTS =
 ../bin/IS_execise: src/CMakeFiles/IS_execise.dir/chapter1.cpp.o
 ../bin/IS_execise: src/CMakeFiles/IS_execise.dir/build.make
 ../bin/IS_execise: src/CMakeFiles/IS_execise.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/actev/IS/IS_execise/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/IS_execise"
-	cd /home/actev/IS/IS_execise/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IS_execise.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/actev/IR/IR_exercises/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../bin/IS_execise"
+	cd /home/actev/IR/IR_exercises/build/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/IS_execise.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/CMakeFiles/IS_execise.dir/build: ../bin/IS_execise
@@ -131,10 +131,10 @@ src/CMakeFiles/IS_execise.dir/requires: src/CMakeFiles/IS_execise.dir/chapter1.c
 .PHONY : src/CMakeFiles/IS_execise.dir/requires
 
 src/CMakeFiles/IS_execise.dir/clean:
-	cd /home/actev/IS/IS_execise/build/src && $(CMAKE_COMMAND) -P CMakeFiles/IS_execise.dir/cmake_clean.cmake
+	cd /home/actev/IR/IR_exercises/build/src && $(CMAKE_COMMAND) -P CMakeFiles/IS_execise.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/IS_execise.dir/clean
 
 src/CMakeFiles/IS_execise.dir/depend:
-	cd /home/actev/IS/IS_execise/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/actev/IS/IS_execise /home/actev/IS/IS_execise/src /home/actev/IS/IS_execise/build /home/actev/IS/IS_execise/build/src /home/actev/IS/IS_execise/build/src/CMakeFiles/IS_execise.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/actev/IR/IR_exercises/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/actev/IR/IR_exercises /home/actev/IR/IR_exercises/src /home/actev/IR/IR_exercises/build /home/actev/IR/IR_exercises/build/src /home/actev/IR/IR_exercises/build/src/CMakeFiles/IS_execise.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/IS_execise.dir/depend
 
