@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+..//include/chapter1.h
+
+/home/actev/IS/IS_execise/src/chapter1.cpp
+include/chapter1.h
+/home/actev/IS/IS_execise/src/include/chapter1.h
+map
+-
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+vector
+-
+algorithm
+-
+
+/home/actev/IS/IS_execise/src/main.cpp
+include/chapter1.h
+/home/actev/IS/IS_execise/src/include/chapter1.h
+map
+-
+functional
+-
+

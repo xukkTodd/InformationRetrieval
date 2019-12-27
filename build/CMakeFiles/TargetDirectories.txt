@@ -1,0 +1,5 @@
+/home/actev/IS/IS_execise/build/CMakeFiles/edit_cache.dir
+/home/actev/IS/IS_execise/build/CMakeFiles/rebuild_cache.dir
+/home/actev/IS/IS_execise/build/src/CMakeFiles/rebuild_cache.dir
+/home/actev/IS/IS_execise/build/src/CMakeFiles/edit_cache.dir
+/home/actev/IS/IS_execise/build/src/CMakeFiles/IS_execise.dir

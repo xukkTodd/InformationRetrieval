@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/IS_execise.dir/main.cpp.o CMakeFiles/IS_execise.dir/chapter1.cpp.o  -o ../../bin/IS_execise -rdynamic 
