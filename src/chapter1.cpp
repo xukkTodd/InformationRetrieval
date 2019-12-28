@@ -124,6 +124,20 @@ static void NotAllIndexes(const std::set<int> &all_indexes, const std::set<int> 
     Diff(all_indexes, query_result, result_not);
 } // end NotAllIndexes
 
+static void AndNot(const std::set<int> &query_result1, const std::set<int> &query_result2, std::set<int> *result_and_not) {
+    auto it1 = query_result1.begin(), it2 = query_result2.begin();
+    while (it1 != query_result1.end() && it2 != query_result2.end()) {
+        if (*it1 == *it2) {
+            ++it1;
+            ++it2;
+        } else if (*it1 > *it2) {
+            ++it2;
+        } else {
+            result_and_not->insert(*it1++);
+        } // end else
+    } // end while
+} // end AndNot
+
 void TestC1E1() {
 	std::string file_path = "./../data/1.1.txt";
 	std::vector< std::pair<std::string, int> > term_documentsid;
